@@ -1,4 +1,4 @@
-# Foliage+
+# Foliage
 
 ![foliage-banner](https://i.imgur.com/Gmg7qg2.png)
 -----
@@ -6,6 +6,11 @@
 <img src="https://cdn.modrinth.com/data/kXiPMJsD/images/b11c1f9654a3d75e4bb0c11afd40eb391b741385.png" width="360"> <img src="https://cdn.modrinth.com/data/kXiPMJsD/images/47da479df2ee57d7f54bf01a5a19715ff496f642.png" width="360">
 
 [More Screenshots](https://modrinth.com/resourcepack/foliage%2B/gallery)
+
+### (Please note that the GitHub page is only for reporting issues and requesting ideas. The code itself can already be viewed inside the pack.)
+-----
+### Download: [Modrinth](https://modrinth.com/resourcepack/foliage+/) | CurseForge (coming soon)!
+-----
 
 ## Description
 
