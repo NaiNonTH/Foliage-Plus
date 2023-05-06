@@ -9,7 +9,7 @@
 
 ### (Please note that the GitHub page is only for reporting issues and requesting ideas. The code itself can already be viewed inside the pack.)
 -----
-### Download: [Modrinth](https://modrinth.com/resourcepack/foliage+/) | CurseForge (coming soon)!
+### Download: [Modrinth](https://modrinth.com/resourcepack/foliage+/) | [CurseForge](https://www.curseforge.com/minecraft/texture-packs/foliage/)
 -----
 
 ## Description
