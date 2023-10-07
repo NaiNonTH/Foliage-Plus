@@ -1,9 +1,10 @@
 name: Issue Report
 description: Found bugs or something bad? Report it with this template!
-title: [Issue]
+title: "[Issue]"
 labels: bug
 assignees: NaiNonTH
 body:
+  label: ""
   - type: textarea
     id: issue-description
     attributes:
