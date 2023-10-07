@@ -1,6 +1,6 @@
 name: Issue Report
 description: Found bugs or something bad? Report it with this template!
-title: "[Issue] "
+title: "[Issue] <Replace this with your Issue Title>"
 labels: bug
 assignees: NaiNonTH
 body:
@@ -29,14 +29,14 @@ body:
       value: |
         ### Environment Details
         Required for an environment setup for developers.
-  - type: textarea
+  - type: input
     id: minecraft-version
     attributes:
       label: Minecraft Version
       placeholder: e.g. 1.14.4
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: mods
     attributes:
       label: Mods Used
@@ -46,7 +46,7 @@ body:
         2. But if you're using no mods or a standalone OptiFine, you can leave this empty.
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: resource-pack-version
     attributes:
       label: Resource Pack Version
@@ -62,7 +62,7 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: code-of-conduct
+    id: terms
     attributes:
       label: "Please check if you've done and understand these followings..."
       options:
