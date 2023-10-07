@@ -1,0 +1,73 @@
+name: Issue Report
+description: Found bugs or something bad? Report it with this template!
+title: [Issue]
+labels: bug
+assignees: NaiNonTH
+body:
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Describe the Issue
+      placeholder: A clear and concise description of what the issue is.
+      description: Please use full stops, commas, and apostrophes correctly to make it legible.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Attach screenshot(s)
+      placeholder: If applicable, attach screenshots of the issue to help describe it even more.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ### Environment Details
+        Required for an environment setup for developers.
+  - type: textarea
+    id: minecraft-version
+    attributes:
+      label: Minecraft Version
+      placeholder: e.g. 1.14.4
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Mods Used
+      placeholder: A compressed folder of all mods used when the issue occurred (.zip is preferred).*
+      description: | 
+      1. REQUIRED EVEN IF IT SEEMS UNRELATED (with a "But").
+      2. But if you're using no mods or a standalone OptiFine, you can leave this empty.
+    validations:
+      required: false
+  - type: textarea
+    id: resource-pack-version
+    attributes:
+      label: Resource Pack Version
+      placeholder: e.g. 1.5.8.1
+    validations:
+      required: true
+  - type: textarea
+    id: additional-details
+    attributes:
+      label: Additional Details
+      placeholder: Anything unrelated to the topics above*, yet helpful for issue fixing.
+      description: "* You may attach a log file here."
+    validations:
+      required: false
+  - type: checkboxes
+    id: code-of-conduct
+    attributes:
+      options:
+        - label: I have used binary search* to find and know conflicted mods (If you're using no mods, you can tick this right away).
+          required: true
+        - label: I have specified all the details I have with the issue.
+          required: true
+        - label: I am okay to give more information as the developer requests.
+          required: true
+        - label: I acknowledge that my issue will be closed if it has been inactive for more than two months.
+          required: true
+  - type: markdown
+    attributes:
+      value: "* Separate your mods into two groups; keep one in the mods folder and remove one. Keep doing this until there is no issue shown. Be sure to remember the group that fixes it once removed so that you can find conflicted mods inside that group."
