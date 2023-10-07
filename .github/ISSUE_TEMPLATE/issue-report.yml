@@ -1,10 +1,14 @@
 name: Issue Report
 description: Found bugs or something bad? Report it with this template!
-title: "[Issue]"
+title: "[Issue] "
 labels: bug
 assignees: NaiNonTH
 body:
-  - label: ""
+  - type: markdown
+    attributes:
+      value: |
+        ### Thank you for reporting an issue!
+        Please fill in this form as detailed as possible.
   - type: textarea
     id: issue-description
     attributes:
