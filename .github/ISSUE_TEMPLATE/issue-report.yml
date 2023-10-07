@@ -37,8 +37,8 @@ body:
       label: Mods Used
       placeholder: A compressed folder of all mods used when the issue occurred (.zip is preferred).*
       description: | 
-      1. REQUIRED EVEN IF IT SEEMS UNRELATED (with a "But").
-      2. But if you're using no mods or a standalone OptiFine, you can leave this empty.
+        1. REQUIRED EVEN IF IT SEEMS UNRELATED (with a "But").
+        2. But if you're using no mods or a standalone OptiFine, you can leave this empty.
     validations:
       required: false
   - type: textarea
