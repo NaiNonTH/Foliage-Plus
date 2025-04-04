@@ -1,3 +1,5 @@
+# This repository is planned to be moved to [NaiNonTH/foliage-plus-v2](https://github.com/NaiNonTH/foliage-plus-v2)
+
 # Foliage
 
 ![foliage-banner](https://i.imgur.com/Gmg7qg2.png)
